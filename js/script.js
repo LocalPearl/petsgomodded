@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (initialTimeRemaining <= 0) {
             go();
         } else {
-            const days = padNumber(Math.floor(initialTimeRemaining / (1000 * 60 * 60 * 28)));
+            const days = padNumber(Math.floor(initialTimeRemaining / (1000 * 60 * 60 * 24)));
             const hours = padNumber(Math.floor((initialTimeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
             const minutes = padNumber(Math.floor((initialTimeRemaining % (1000 * 60 * 60)) / (1000 * 60)));
             const seconds = padNumber(Math.floor((initialTimeRemaining % (1000 * 60)) / 1000));
