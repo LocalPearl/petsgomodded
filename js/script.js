@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const colors = ['#9142ff', '#2aff54', '#ffde37', '#ff3737', '#4385ff'];
     const confettiContainer = document.querySelector('.confetti-container');
 
-    const targetDate = new Date(Date.UTC(2025, 4, 4, 4, 0, 0));
+    const targetDate = new Date(Date.UTC(2025-04-06T00:00:00.000Z));
 
     function padNumber(num) {
         return num.toString().padStart(2, '0');
